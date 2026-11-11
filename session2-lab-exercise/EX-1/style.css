@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding:20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+    height: 90vh;
+}
+.blox{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    /* height: 90px; */
+    border-radius: 20px;
+    border: black;
+    padding: 10px;
+}
+.a{
+    grid-column: 1/4;
+}
+.b{
+    grid-row: 2/4;
+}
+.c{
+    grid-column: 2/3;
+}
+.d{
+    grid-column: 3/4;
+}
+.e{
+    grid-column: 2/4;
+}
+.f{
+    grid-column: 1/4;
+}
